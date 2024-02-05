@@ -197,14 +197,14 @@ const checkRow = () => {
          
          flipTile()
          if (wordle == guess){
-            showMessage('Excelente!')
+            showMessage('Excelente! 🎉 Te espero para o desafio de amanhã 😉')
             isGameOver = true
             return
          }
          else {
             if (currentRow >= 5) {
                 isGameOver = true
-                showMessage('Você perdeu! A palavra era ' + wordle + '. Tente novamente!')
+                showMessage('Você perdeu! ❌ A palavra era ' + wordle + '. Tente novamente amanhã!')
                 return
             }
             if (currentRow < 5) {
