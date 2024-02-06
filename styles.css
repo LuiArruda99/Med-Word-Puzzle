@@ -43,6 +43,7 @@ body {
     border: none;
     background-color: #818384;
     margin: 4px;
+    cursor: pointer;
 }
 
 .key-container button:nth-child(11) {
@@ -85,6 +86,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end; /* Alinhar na margem direita */
+}
+
+.footer-container p {
+    color: #818384;
 }
 
 .footer-container img {

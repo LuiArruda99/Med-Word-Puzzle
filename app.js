@@ -115,7 +115,7 @@ const keys = [
     'B',
     'N',
     'M',
-    '⬅️',
+    'APAGAR',
 ]
 
 const guessRows = [
@@ -156,7 +156,7 @@ keys.forEach(key => {
 })
 
 const handleClick = (key) => {
-    if (key === '⬅️') {
+    if (key === 'APAGAR') {
         deleteLetter()
         return
     }
