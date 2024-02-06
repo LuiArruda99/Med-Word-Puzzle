@@ -82,7 +82,15 @@ const words = [
 "ictal",
 "derme",
 "verme",
-"jelco"
+"jelco",
+"tibia",
+"nervo",
+"vigil",
+"malar",
+"pubis",
+"testa",
+"nasal",
+"halux"
   ]
   
 let wordle = words[Math.floor(Math.random()*words.length)].toUpperCase()
